@@ -1,0 +1,320 @@
+/* =========================
+Reset Semantic Page Elements
+========================= */
+
+/* sets default html settings */
+html {
+	margin: 0px !important;
+	padding: 0px !important;
+	font-size: 62.5%;
+}
+
+/* sets default body settings */
+body {
+	margin: 0px !important;
+	padding: 0px !important;
+	font-size: 1.6rem;
+}
+
+/* overrides default header settings */
+header {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+/* overrides the default footer settings */
+footer {
+	margin: 0px !important;
+}
+
+/* overrides default section settings */
+section {
+	margin: 0px !important;
+}
+
+/* ====================
+Ui Borderless Main Menu
+==================== */
+
+.ui.borderless.main.menu {
+	margin: 0px;
+	font-size: 2rem !important;
+}
+
+a.item {
+	font-size: 2rem !important;
+}
+
+/* ================
+Custom Page Headers
+================ */
+
+/* displays on the home page of the site*/
+#home-header {
+	/* background-image: url(/img/9234898125_d01dc58a83_o.jpg); */
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	height: 523px;
+	margin-top: 0px !important;
+	/* height: 768px; */
+}
+
+/* displays on the about page of the site */
+#about-header {
+	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
+	background-attachment: fixed;
+	background-position: top left;
+	background-size: cover;
+	width: auto;
+	height: 500px;
+}
+
+/* displays on the products page of the site */
+#products-header {
+	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	height: 500px;
+}
+
+/* displays on the solutions page of the website */
+#services-header {
+	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	height: 500px;
+}
+
+/* displays on the company page of the website */
+#company-header {
+	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	height: 500px;
+}
+
+/* displays on the contact page of the website */
+#contact-header {
+	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	height: 284px;
+}
+
+#about-contact-robert {
+	background-color: lightgrey;
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	height: 523px;
+}
+
+#secondary-nav {
+	background-color: #ffffff !important;
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	height: 323px;
+}
+
+/* controls the blue border for the headings */
+.blue.bottom.border {
+	border-bottom: solid 2px #2185D0;
+}
+
+/* ===============
+Contact Us Section
+=============== */
+/* */
+
+/* basic footer */
+#basic-footer {
+	background-color: white;
+}
+
+/* primary footer */
+#primary-footer {
+	background-color: #767676;
+}
+
+/* secondary footer */
+#secondary-footer {
+	background-color: lightgray;
+}
+
+/* ==================
+Custom Heading Styles
+================== */
+
+/* overrides the default h1 styles */
+h1.ui.header {
+	font-family: 'Din Condensed', sans-serif !important;
+	font-weight: normal;
+	font-size: 5rem;
+}
+
+/* overrides the default h2 styles */
+h2.ui.header {
+	font-family: 'Din Condensed', sans-serif;
+	font-weight: normal;
+	font-size: 4rem;
+}
+
+/* overrides the default h3 styles */
+h3.ui.header {
+	font-family: 'Din Condensed', sans-serif;
+	font-weight: normal;
+	font-size: 2.6rem;
+}
+
+/* overrides the default h4 */
+h4.ui.header {
+	font-family: 'Din Condensed', sans-serif;
+	font-weight: normal;
+	font-size: 2rem;
+}
+
+/* overrides the default h5 sizing */
+h5.ui.header {
+	font-family: 'Din Condensed', sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+}
+
+/* overrides the default h6 sizing */
+h6.ui.header {
+	font-family: 'Din Condensed', sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+}
+
+span.ui.text {
+	font-family: "Georgia", "Times New Roman", serif;
+	font-weight: normal;
+	font-size: 1.6rem !important;
+	color: #000000;
+}
+
+blockquote.ui.text {
+	font-family: "Georgia", "Times New Roman", serif;
+	font-weight: normal;
+	font-size: 1.6rem !important;
+	color: #000000;
+}
+
+/* ==============
+CUSTOM PARAGRAPHS
+============== */
+
+/* overrides the default paragraph text size */
+p {
+	font-size: 1.6rem;
+}
+
+/* transforms the default text style */
+p.ui.text {
+	font-family: 'Georgia', 'Times New Roman', 'sans-serif';
+	font-weight: normal;
+	font-size: 1.6rem !important;
+	text-transform: none !important;
+}
+
+/* centers the text class paragraph */
+p.ui.center.aligned.text {
+	text-align: center;
+}
+
+/* =====================
+CUSTOM BACKGROUND COLORS
+===================== */
+
+/* blue background */
+.ui .blue-background {
+	background: #0099cc;
+}
+
+/* red background */
+.ui.red-background {
+	background-color: red !important;
+}
+
+/* yellow background */
+.ui.yellow.background {
+	background-color: yellow;
+}
+
+/* green background */
+.ui > .green > .background {
+	background-color: green;
+}
+
+/* dark gray background */
+.ui.dark-gray.background {
+	background-color: darkgray;
+}
+
+/* light gray background */
+.ui.light-gray .background {
+	background-color: lightgray;
+}
+
+/* turns headings into uppercase */
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase !important;
+}
+
+/* controls the default webfont used for the brand */
+a.ui.logo.item {
+	font-family: 'OSP-DIN', 'Din', sans-serif !important;
+	font-weight: normal;
+	font-size: 3rem !important;
+}
+
+a.ui.brand.item {
+	font-family: 'OSP-DIN', 'Din', sans-serif !important;
+	font-weight: normal;
+	font-size: 2rem;
+	text-transform: uppercase !important;
+}
+
+.item {
+	text-transform: uppercase !important;
+}
+
+/* places a border below a header */
+.header-border {
+	border-bottom: solid 2px darkgrey;
+}
+/* transforms the default segment into a straight one */
+.ui.straight.segment {
+	border-radius: 0px !important;
+}
+
+/* transforms the default header into uppercase */
+.ui.uppercase.header {
+	text-transform: uppercase;
+	text-rendering:
+}
+
+.ui.text {
+	font-family: 'Helvetica';
+	font-size: 1rem !important;
+	font-weight: normal;
+}
+
+.grey.bottom.border {
+	border-bottom: solid 2px #cccccc;
+}
+
+a.ui.basic.grey.button {
+	font-size: 1.6rem !important;
+}
+
+a.ui.basic.blue.button {
+	font-size: 1.6rem !important;
+}
