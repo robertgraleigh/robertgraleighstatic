@@ -1,5 +1,5 @@
 <!--
-	Head: Sitewide header for the single page template
+	Head: Sitewide head for the single page template
 -->
 <head>
   <meta charset="utf-8">
@@ -15,4 +15,33 @@
 	<link rel="stylesheet" href="{{ "/css/rgr.css" | prepend: site.baseurl}}"
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+	<script src="https://cdn.jsdelivr.net/jquery/3.1.0/jquery.min.js"></script>
+	<script>
+	$(document)
+		.ready(function() {
+
+			// fix main menu to page on passing
+			$('.ui.borderless.main.menu').visibility({
+				type: 'fixed'
+			});
+			$('.overlay').visibility({
+				type: 'fixed',
+				offset: 80
+			});
+
+			// lazy load images
+			$('.image').visibility({
+				type: 'image',
+				transition: 'vertical flip in',
+				duration: 500
+			});
+
+			// show dropdown on hover
+			$('.main.menu	.ui.dropdown').dropdown({
+				on: 'hover'
+			});
+		})
+	;
+	</script>
+
 </head><!-- /head -->
