@@ -300,11 +300,20 @@ a.ui.brand.item {
 	text-transform: uppercase;
 	text-rendering:
 }
-
+.ui.card>.content>.header, .ui.cards>.card>.content>.header {
+	font-family: 'Din Condensed', 'Din', sans-serif;
+	font-size: inherit;
+}
 .ui.text {
 	font-family: 'Helvetica';
 	font-size: 1rem !important;
 	font-weight: normal;
+}
+
+.ui.card.icon {
+	font-size: 7rem;
+	padding-top: 10px;
+	padding-bottom: 5px;
 }
 
 .grey.bottom.border {
