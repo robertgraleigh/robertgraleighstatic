@@ -304,10 +304,22 @@ a.ui.brand.item {
 	font-family: 'Din Condensed', 'Din', sans-serif;
 	font-size: inherit;
 }
+
 .ui.text {
 	font-family: 'Helvetica';
 	font-size: 1rem !important;
 	font-weight: normal;
+}
+
+.ui.inverted.white.text {
+	font-family: "Merriweather", serif;
+	font-size: 1rem;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+.ui.lowercase.text {
+	text-transform: lowercase;
 }
 
 .ui.card.icon {
