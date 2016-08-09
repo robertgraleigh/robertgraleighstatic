@@ -41,7 +41,15 @@ Ui Borderless Main Menu
 	font-size: 2rem !important;
 }
 
-a.item {
+.ui.borderless.main.menu > a.ui.item {
+	font-family: "Din Condensed" !important;
+	font-weight: normal;
+	font-size: 0.9rem !important;
+}
+
+.ui.menu > .ui.item {
+	font-family: "Din Condensed" !important;
+	font-weight: normal;
 	font-size: 2rem !important;
 }
 
@@ -338,4 +346,14 @@ a.ui.basic.grey.button {
 
 a.ui.basic.blue.button {
 	font-size: 1.6rem !important;
+}
+
+.ui.attached.blue.button {
+	font-size: 2rem;
+}
+
+/* controls the icons in the card headers */
+.fa-card {
+	font-size: 7rem;
+	padding: 10px 0px 0px 0px;
 }
