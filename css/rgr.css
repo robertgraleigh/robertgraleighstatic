@@ -30,6 +30,7 @@ footer {
 /* overrides default section settings */
 section {
 	margin: 0px !important;
+	padding: 24px 0px 24px 0px !important;
 }
 
 /* ====================
@@ -348,8 +349,10 @@ a.ui.basic.blue.button {
 	font-size: 1.6rem !important;
 }
 
+/* overrides the default button style */
 .ui.attached.blue.button {
 	font-size: 2rem;
+	text-align: left;
 }
 
 /* controls the icons in the card headers */
