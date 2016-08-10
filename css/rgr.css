@@ -311,8 +311,7 @@ a.ui.brand.item {
 }
 .ui.card>.content>.header, .ui.cards>.card>.content>.header {
 	font-family: 'Din Condensed', 'Din', sans-serif;
-	font-size: inherit;
-}
+	font-size: inherit;}
 
 .ui.text {
 	font-family: 'Helvetica';
@@ -341,10 +340,12 @@ a.ui.brand.item {
 	border-bottom: solid 2px #cccccc;
 }
 
+/* overrides basic blue button style */
 a.ui.basic.grey.button {
 	font-size: 1.6rem !important;
 }
 
+/* overrides basic blue button style */
 a.ui.basic.blue.button {
 	font-size: 1.6rem !important;
 }
@@ -354,7 +355,6 @@ a.ui.basic.blue.button {
 	font-size: 2rem;
 	text-align: left;
 }
-
 
 /* overrides the default button style */
 .ui.attached.grey.button {
