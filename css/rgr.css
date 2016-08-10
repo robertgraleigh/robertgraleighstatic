@@ -355,6 +355,13 @@ a.ui.basic.blue.button {
 	text-align: left;
 }
 
+
+/* overrides the default button style */
+.ui.attached.grey.button {
+	font-size: 2rem;
+	text-align: left;
+}
+
 /* controls the icons in the card headers */
 .fa-card {
 	font-size: 7rem;
