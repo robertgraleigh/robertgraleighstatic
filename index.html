@@ -6,20 +6,99 @@ layout: default
 	Header: Main header for the single page template
 -->
 <header id="home-header" class="ui inverted blue segment ">
-	<div class="ui internally celled padded grid">
-		<div class="ui nine wide column">
+	<div class="ui one column padded grid">
+		<div class="ui twelve wide centered column">
 			<h1 class="ui header">Need a spare hand? Or three?</h1>
-			<p class="ui text">Robert G. Raleigh is an experienced frontend web developer with a passion for development, small busines, and social justice.</p>
-			<a href="" class="ui white button">Button one</a>
-			<a href="" class='ui grey button'>Button two</a>
+			<p class="ui text">Robert G. Raleigh is an experienced frontend web developer with a passion for development, small busines, and social justice.</p><!-- /p -->
+			<div class="ui teal buttons">
+			  <div class="ui button">Contact Robert</div>
+				  <div class="ui floating dropdown icon button">
+			    <i class="dropdown icon"></i>
+			    <div class="menu">
+			      <div class="item"><i class="edit icon"></i> Edit Post</div>
+			      <div class="item"><i class="delete icon"></i> Remove Post</div>
+			      <div class="item"><i class="hide icon"></i> Hide Post</div>
+			    </div>
+			  </div>
+			</div>
+			<a href="" class="ui white button">Contact Robert</a>
+			<a href="" class='ui grey button'>Get Started</a>
 		</div><!-- /div -->
 		<div class="">
 			<div class="ui images">
-				<img class
-			</div>
-		</div>
+				<img class="" />
+				<img class="" />
+				<img class="" />
+			</div><!-- /div -->
+		</div><!-- /div -->
 	</div><!-- /div -->
 </header><!-- /header -->
+
+<!--
+	Section: Callout
+-->
+<section id="callout">
+	<div class="ui one column padded grid">
+		<div class="ui twelve wide column">
+			<h2 class="ui header">
+				Can you write this benefit statement using fifteen or less of the key words
+			</h2><!-- /h2 -->
+		</div><!-- /div -->
+	</div><!-- /div -->
+</section><!-- /section -->
+
+<!--
+	Section: Benefits
+-->
+<section id="benefits">
+	<div class="ui three column padded grid">
+		<div class="ui column">
+			<div class="ui fluid raised card">
+				<div class="ui content">
+					<div class="ui header">
+						<h3 class="ui header">Benefit one</h3>
+						<p class="ui description">
+							This is the main benefit of the business, why you want to work with Robert, and not someone else.
+						</p><!-- /p -->
+						<p class="ui description">
+							This is the supporting statement of the main benefit of the business, and understanding what you're going through.
+						</p><!-- /p -->
+					</div><!-- /div -->
+				</div><!-- /div -->
+			</div><!-- /div -->
+		</div><!-- /div -->
+		<div class="ui column">
+			<div class="ui fluid raised card">
+				<div class="ui content">
+					<div class="ui header">
+						<h3 class="ui header">Benefit two</h3>
+						<p class="ui description">
+							This is the main benefit of the business, why you want to work with Robert, and not someone else.
+						</p><!-- /p -->
+						<p class="ui description">
+							This is the supporting statement of the main benefit of the business, and understanding what you're going through.
+						</p><!-- /p -->
+					</div><!-- /div -->
+				</div><!-- /div -->
+			</div><!-- /div -->
+		</div><!-- /div -->
+		<div class="ui column">
+			<div class="ui fluid raised card">
+				<div class="ui content">
+					<div class="ui header">
+						<h3 class="ui header">Benefit three</h3>
+						<p class="ui description">
+							This is the main benefit of the business, why you want to work with Robert, and not someone else.
+						</p><!-- /p -->
+						<p class="ui description">
+							This is the supporting statement of the main benefit of the business, and understanding what you're going through.
+						</p><!-- /p -->
+					</div><!-- /div -->
+				</div><!-- /div -->
+			</div><!-- /div -->
+		</div><!-- /div -->
+	</div><!-- /div -->
+</section><!-- /section -->
 
 <!-- About Robert Menu link target for the primary nav link -->
 <a id="aboutRobertAnchor"></a><!-- /a -->
@@ -850,7 +929,7 @@ layout: default
 	</div><!-- /div -->
 </section><!-- /section -->
 
-{% testimonials.html%}
+{% include testimonials.html%}
 
 
 <!--
