@@ -51,7 +51,7 @@ Ui Borderless Main Menu
 .ui.menu > .ui.item {
 	font-family: "Din Condensed" !important;
 	font-weight: normal;
-	font-size: 2rem !important;
+	font-size: 02rem !important;
 }
 
 /* ================
@@ -332,6 +332,12 @@ a.ui.brand.item {
 
 .ui.card.icon {
 	font-size: 7rem;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.ui.header.icon {
+	font-size: 8rem;
 	padding-top: 10px;
 	padding-bottom: 5px;
 }
