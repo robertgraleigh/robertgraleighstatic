@@ -20,6 +20,9 @@ body {
 header {
 	margin: 0px !important;
 	padding: 0px !important;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover; 
 }
 
 /* overrides the default footer settings */
@@ -372,4 +375,12 @@ a.ui.basic.blue.button {
 .fa-card {
 	font-size: 7rem;
 	padding: 10px 0px 0px 0px;
+}
+
+.txt-lg {
+	font-size: 5rem !important;
+}
+
+.fa-ma {
+	font-size: 8rem;
 }
