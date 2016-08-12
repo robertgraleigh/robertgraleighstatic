@@ -63,7 +63,7 @@ Custom Page Headers
 
 /* displays on the home page of the site*/
 #home-header {
-	/* background-image: url(/img/9234898125_d01dc58a83_o.jpg); */
+	background-image: url(/img/2402598275_2689e9ce4d_o.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
@@ -110,20 +110,23 @@ Custom Page Headers
 }
 
 /* displays on the contact page of the website */
-#contact-header {
-	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
+#contact-us-header {
+	background-image: url(/img/2402598275_2689e9ce4d_o.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
 	height: 284px;
+	padding-top: 40px !important;
 }
 
-#about-contact-robert {
-	background-color: lightgrey;
+/* displays on the contact page of the website */
+#get-started-header {
+	background-image: url(/img/2402598275_2689e9ce4d_o.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
-	height: 523px;
+	height: 284px;
+	padding-top: 40px !important;
 }
 
 #secondary-nav {
@@ -203,6 +206,14 @@ h6.ui.header {
 	font-family: 'Din Condensed', sans-serif;
 	font-weight: normal;
 	font-size: 1rem;
+}
+
+.white.header {
+	color: #ffffff;
+}
+
+.header-ma {
+	font-size: 6rem !important;
 }
 
 span.ui.text {
