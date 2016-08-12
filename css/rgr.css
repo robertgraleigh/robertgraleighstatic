@@ -381,6 +381,14 @@ a.ui.basic.blue.button {
 	font-size: 5rem !important;
 }
 
+.fa-md {
+	font-size: 4rem;
+}
+
+.fa-lg {
+	font-size: 5rem; 
+}
+
 .fa-ma {
 	font-size: 8rem;
 }
