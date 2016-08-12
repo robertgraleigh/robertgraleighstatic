@@ -28,6 +28,7 @@ header {
 /* overrides the default footer settings */
 footer {
 	margin: 0px !important;
+	padding: 0px !important;
 }
 
 /* overrides default section settings */
@@ -55,6 +56,11 @@ Ui Borderless Main Menu
 	font-family: "Din Condensed" !important;
 	font-weight: normal;
 	font-size: 02rem !important;
+}
+
+#contact-nav {
+	margin: 0px !important;
+	padding: 0px;
 }
 
 /* ================
@@ -147,20 +153,7 @@ Contact Us Section
 =============== */
 /* */
 
-/* basic footer */
-#basic-footer {
-	background-color: white;
-}
 
-/* primary footer */
-#primary-footer {
-	background-color: #767676;
-}
-
-/* secondary footer */
-#secondary-footer {
-	background-color: lightgray;
-}
 
 /* ==================
 Custom Heading Styles
@@ -390,6 +383,9 @@ a.ui.basic.blue.button {
 
 .txt-lg {
 	font-size: 5rem !important;
+}
+.fa-sm {
+	font-size: 3rem;
 }
 
 .fa-md {
