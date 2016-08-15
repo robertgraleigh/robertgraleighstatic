@@ -90,7 +90,6 @@ Custom Page Headers
 
 /* displays on the products page of the site */
 #products-header {
-	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
