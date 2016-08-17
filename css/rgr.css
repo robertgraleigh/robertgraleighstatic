@@ -28,7 +28,6 @@ header {
 /* overrides the default footer settings */
 footer {
 	margin: 0px !important;
-	padding: 0px !important;
 }
 
 /* overrides default section settings */
@@ -58,18 +57,13 @@ Ui Borderless Main Menu
 	font-size: 02rem !important;
 }
 
-#contact-nav {
-	margin: 0px !important;
-	padding: 0px;
-}
-
 /* ================
 Custom Page Headers
 ================ */
 
 /* displays on the home page of the site*/
 #home-header {
-	background-image: url(/img/2402598275_2689e9ce4d_o.jpg);
+	/* background-image: url(/img/9234898125_d01dc58a83_o.jpg); */
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
@@ -90,6 +84,7 @@ Custom Page Headers
 
 /* displays on the products page of the site */
 #products-header {
+	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
@@ -115,23 +110,20 @@ Custom Page Headers
 }
 
 /* displays on the contact page of the website */
-#contact-us-header {
-	background-image: url(/img/2402598275_2689e9ce4d_o.jpg);
+#contact-header {
+	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
 	height: 284px;
-	padding-top: 40px !important;
 }
 
-/* displays on the contact page of the website */
-#get-started-header {
-	background-image: url(/img/2402598275_2689e9ce4d_o.jpg);
+#about-contact-robert {
+	background-color: lightgrey;
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
-	height: 284px;
-	padding-top: 40px !important;
+	height: 523px;
 }
 
 #secondary-nav {
@@ -152,7 +144,20 @@ Contact Us Section
 =============== */
 /* */
 
+/* basic footer */
+#basic-footer {
+	background-color: white;
+}
 
+/* primary footer */
+#primary-footer {
+	background-color: #767676;
+}
+
+/* secondary footer */
+#secondary-footer {
+	background-color: lightgray;
+}
 
 /* ==================
 Custom Heading Styles
@@ -198,14 +203,6 @@ h6.ui.header {
 	font-family: 'Din Condensed', sans-serif;
 	font-weight: normal;
 	font-size: 1rem;
-}
-
-.white.header {
-	color: #ffffff;
-}
-
-.header-ma {
-	font-size: 6rem !important;
 }
 
 span.ui.text {
@@ -382,17 +379,6 @@ a.ui.basic.blue.button {
 
 .txt-lg {
 	font-size: 5rem !important;
-}
-.fa-sm {
-	font-size: 3rem;
-}
-
-.fa-md {
-	font-size: 4rem;
-}
-
-.fa-lg {
-	font-size: 5rem; 
 }
 
 .fa-ma {
